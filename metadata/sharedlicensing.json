@@ -41,7 +41,7 @@
   },
   "licenseDetails": {
     "hasMultipleLicenseTypes": true,
-    "fetchUrl": "https://api.jsonstorage.net/v1/json/15218890-07a1-481f-85e1-8ac3472d5493/7ba420b5-0fcb-4c1a-98a4-526be8812532",
+    "fetchUrl": "https://dchoweller.github.io/licenseurls/sharedlicensing.json",
     "multipleLicenseAssignmentDetails": {
       "assignmentMethod": "mapped",
       "fieldName": "licenseName"
