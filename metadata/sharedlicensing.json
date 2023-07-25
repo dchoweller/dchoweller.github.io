@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "fetchFeatureUrl": "https://entitlementservice.cw.net/v1/partners",
+  "applicationBaseName": "",
+  "instanceID": "1BrightGuageLicensingInstanceID",
+  "accessRestrictions": {
+    "accessType": "all"
+  },
+  "authorization": {
+    "roleManagementUrl": "https://mydomain.itsupport247.com/Administration/Roles",
+    "roleAssignment": {
+      "getRoleAssignmentsUrl": "https://authzservice.int.aps1.cwcmddev.cwcloud.io/authorizationservice/v1/sso/partners/{partnerId}/apps/{clientId}/identityRoles/{identityRoleId}/roleAssignments",
+      "saveRoleAssignmentsUrl": "https://authzservice.int.aps1.cwcmddev.cwcloud.io/authorizationservice/v1/sso/partners/{partnerId}/apps/{clientId}/identityRoles/{identityRoleId}/roleAssignments",
+      "getIdentityRoleMappingUrl": "",
+      "applicationRoles": [
+        {
+          "roleId": "adminAppRole1",
+          "displayName": "AdminAppRole1",
+          "licenseName": "license1"
+        },
+        {
+          "roleId": "adminAppRole2",
+         "displayName": "AdminAppRole2",     
+          "licenseName": "license2"
+        },
+        {
+          "roleId": "adminAppRole3",
+          "displayName": "AdminAppRole3",   
+          "licenseName": "license1"
+        },
+        {
+          "roleId": "adminAppRole4",
+         "displayName": "AdminAppRole4"
+        },
+        {
+          "roleId": "adminAppRole5",
+         "displayName": "AdminAppRole5"
+        }
+      ]
+    }
+  },
+  "licenseDetails": {
+    "hasMultipleLicenseTypes": true,
+    "fetchUrl": "https://api.jsonstorage.net/v1/json/15218890-07a1-481f-85e1-8ac3472d5493/7ba420b5-0fcb-4c1a-98a4-526be8812532",
+    "multipleLicenseAssignmentDetails": {
+      "assignmentMethod": "mapped",
+      "fieldName": "licenseName"
+    }
+  }
+}
