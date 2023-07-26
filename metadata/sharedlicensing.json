@@ -30,7 +30,8 @@
         },
         {
           "roleId": "adminAppRole4",
-         "displayName": "AdminAppRole4"
+         "displayName": "AdminAppRole4",
+          "licenseName": "license2"
         },
         {
           "roleId": "adminAppRole5",
