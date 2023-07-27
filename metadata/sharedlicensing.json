@@ -36,7 +36,11 @@
         {
           "roleId": "adminAppRole5",
          "displayName": "AdminAppRole5"
-        }
+        },
+        {
+          "roleId": "adminAppRole6",
+         "displayName": "AdminAppRole6",
+          "licenseName": "license3"
       ]
     }
   },
