@@ -8,6 +8,17 @@
     "unused": 0
   },
   {
-    "name": "adminAppRole3"
+    "name": "adminAppRole3",
+    "unused": 1
+  },
+  {
+    "name": "adminAppRole4",
+    "unused": 0
+  }
+  {
+    "name": "adminAppRole5"
+  },
+  {
+    "name": "adminAppRole6"
   }
 ]
