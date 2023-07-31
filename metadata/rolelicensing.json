@@ -16,12 +16,12 @@
           "displayName": "AdminAppRole1"
         },
         {
-          "roleId": "adminAppRole3",
+          "roleId": "adminAppRole2",
           "displayName": "AdminAppRole3"
         },
         {
-          "roleId": "adminAppRole5",
-         "displayName": "AdminAppRole5"
+          "roleId": "adminAppRole3",
+         "displayName": "AdminAppRole3"
         }
       ]
     }
