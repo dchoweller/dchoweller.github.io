@@ -1,0 +1,62 @@
+{
+    "version": 1,
+    "applicationBaseName": "",
+    "instanceId": "ProductSpecificLicensingInstanceId",
+    "authorizationEnabled": true,
+    "authorization": {
+        "roleAssignment": {
+            "applicationRoles": [
+                {
+                    "roleId": "abc",
+                    "displayName": "Administrator"
+                },
+                {
+                    "roleId": "def",
+                    "displayName": "Minion"
+                },
+                {
+                    "roleId": "Admin",
+                    "displayName": "Admin"
+                },
+                {
+                    "roleId": "Billing Admin",
+                    "displayName": "Billing Admin"
+                },
+                {
+                    "roleId": "Common User",
+                    "displayName": "Common User"
+                }
+            ]
+        },
+        "resourceLists": [
+            {
+                "resourceListId": "df1",
+                "resourceListType": "inline",
+                "resources": [
+                    {
+                        "resourceId": "R2D2",
+                        "resourceType": "device",
+                        "resourceDisplayName": "R2-D2"
+                    },
+                    {
+                        "resourceId": "C3PO",
+                        "resourceType": "device",
+                        "resourceDisplayName": "C-3PO"
+                    }
+                ],
+                "resourceJsonPaths": {}
+            }
+        ]
+    },
+    "accessRestrictions": {
+        "accessType": "all"
+    },
+    "licenseDetails": {
+        "fetchUrl": "https://dchoweller.github.io/licenseurls/productspecificlicensing.json",
+        "hasMultipleLicenseTypes": true,
+        "multipleLicenseAssignmentDetails": {
+            "assignmentMethod": "manual",
+            "fieldName": ""
+        }
+    }
+}

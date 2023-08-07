@@ -1,0 +1,14 @@
+[
+  {
+    "name": "gold",
+    "unused": 2
+  },
+  {
+    "name": "silver",
+    "unused": 1
+  },
+  {
+    "name": "bronze",
+    "unused": 0
+  }
+]
