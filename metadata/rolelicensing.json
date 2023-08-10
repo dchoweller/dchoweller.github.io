@@ -25,15 +25,18 @@
         },
         {
           "roleId": "adminAppRole4",
-         "displayName": "AdminAppRole4"
+          "displayName": "AdminAppRole4"
         },
         {
           "roleId": "adminAppRole5",
-         "displayName": "AdminAppRole5"
+          "displayName": "AdminAppRole5"
         },
         {
           "roleId": "adminAppRole6",
-         "displayName": "AdminAppRole6"
+          "displayName": "AdminAppRole6",
+	  "roleConstraint": {
+		 "unAssignable": false
+	 }
         }
       ]
     }
