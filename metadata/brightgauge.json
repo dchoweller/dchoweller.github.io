@@ -1,0 +1,39 @@
+iam_metadata = {
+    "version": 1,
+    "applicationBaseName": "BrightGauge",
+    "instanceID": "BrightGauge",
+    "instanceFriendlyName": "BrightGauge",
+    "authorization": {
+        "roleManagementUrl": "",
+        "roleAssignment": {
+            "hasSingleAppRoleConstraint": false,
+            "applicationRoles": [
+                {
+                    "roleId": "Admin",
+                    "displayName": "Admin",
+                    "licenseName": "AdminAnalyst"
+                },
+                {
+                    "roleId": "Analyst",
+                    "displayName": "Analyst",
+                    "licenseName": "AdminAnalyst"
+                },
+                {
+                    "roleId": "Viewer",
+                    "displayName": "Viewer"
+                }
+            ]
+        }
+    },
+    "accessRestrictions": {
+        "accessType": "All"
+    },
+    "licenseDetails": {
+        "fetchUrl": "https://dchoweller.github.io/licenseurls/brightgauge.json",
+        "hasMultipleLicenseTypes": true,
+        "multipleLicenseAssignmentDetails": {
+            "assignmentMethod": "mapped",
+            "fieldName": "licenseName"
+        }
+    }
+}
