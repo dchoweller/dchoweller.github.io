@@ -1,4 +1,4 @@
-iam_metadata = {
+{
     "version": 1,
     "applicationBaseName": "BrightGauge",
     "instanceID": "BrightGauge",
