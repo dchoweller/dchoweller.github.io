@@ -1,0 +1,66 @@
+{
+    "version": 1,
+    "applicationBaseName": "postman",
+    "instanceId": "postman",
+    "authorizationEnabled": true,
+    "authorization": {
+        "roleAssignment": {
+            "applicationRoles": [
+                {
+                    "roleId": "abc",
+                    "displayName": "Administrator",
+                    "roleTypeHints": [
+                        "Administrator"
+                    ],
+                    "resourceConstraint": {
+                        "required": true,
+                        "globalLabel": "All Sites",
+                        "resourceListId": "df1"
+                    }
+                },
+                {
+                    "roleId": "def",
+                    "displayName": "Minion",
+                    "resourceConstraint": {
+                        "required": true,
+                        "globalLabel": "All Sites",
+                        "resourceListId": "df1"
+                    }
+                },
+                {
+                    "roleId": "Admin",
+                    "displayName": "Admin",
+                    "resourceConstraint": {}
+                },
+                {
+                    "roleId": "Billing Admin",
+                    "displayName": "Billing Admin",
+                    "resourceConstraint": {}
+                },
+                {
+                    "roleId": "Common User",
+                    "displayName": "Common User",
+                    "resourceConstraint": {}
+                }
+            ]
+        },
+        "resourceLists": [
+            {
+                "resourceListId": "df1",
+                "resourceListType": "inline",
+                "resources": [
+                    {
+                        "resourceId": "R2D2",
+                        "resourceType": "device",
+                        "resourceDisplayName": "R2-D2"
+                    }
+                ],
+                "resourceJsonPaths": {}
+            }
+        ]
+    },
+    "accessRestrictions": {
+        "accessType": "all"
+    }
+}
+
