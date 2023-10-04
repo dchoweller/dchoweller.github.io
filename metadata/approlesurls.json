@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "applicationBaseName": "AppRolesURLs",
+  "instanceID": "AppRolesURLsInstanceID",
+  "accessRestrictions": {
+    "accessType": "all"
+  },
+  "authorization": {
+    "roleAssignment": {
+      "getAppRolesUrl": "https://dchoweller.github.io/approlesurls/approlesurls.json",
+      "applicationRoles": [
+        {
+          "roleId": "adminAppRole1",
+          "displayName": "AdminAppRole1"
+        },
+        {
+          "roleId": "adminAppRole2",
+          "displayName": "AdminAppRole2"
+        },
+        {
+          "roleId": "adminAppRole3",
+          "displayName": "AdminAppRole3"
+        },
+        {
+          "roleId": "adminAppRole4",
+          "displayName": "AdminAppRole4"
+        },
+        {
+          "roleId": "adminAppRole5",
+          "displayName": "AdminAppRole5"
+        },
+        {
+          "roleId": "adminAppRole6",
+          "displayName": "AdminAppRole6",
+	  "roleConstraint": {
+		 "unAssignable": false
+	 }
+        }
+      ]
+    }
+  }
+}
