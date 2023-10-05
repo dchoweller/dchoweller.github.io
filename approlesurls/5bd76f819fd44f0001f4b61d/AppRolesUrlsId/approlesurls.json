@@ -1,0 +1,16 @@
+{
+  "roles": [
+    {
+      "desc": "Role1Desc",
+      "id": "Role1ID",
+      "name": "Role1Name",
+      "type": "Role1Type"
+    },
+    {
+      "desc": "Role3Desc",
+      "id": "Role3ID",
+      "name": "Role3Name",
+      "type": "Role3Type"
+    }
+  ]
+} 

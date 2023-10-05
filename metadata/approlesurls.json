@@ -7,7 +7,7 @@
   },
   "authorization": {
     "roleAssignment": {
-      "getAppRolesUrl": "https://dchoweller.github.io/approlesurls/approlesurls.json",
+      "getAppRolesUrl": "https://dchoweller.github.io/approlesurls/{partnerId}/{appId}/approlesurls.json",
       "applicationRoles": [
         {
           "roleId": "adminAppRole1",
