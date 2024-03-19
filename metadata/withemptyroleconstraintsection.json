@@ -1,0 +1,19 @@
+{
+    "version": 1,
+    "authorization": {
+        "roleAssignment": {
+            "hasSingleAppRoleConstraint": true,
+            "applicationRoles": [
+                {
+                    "roleId": "role1",
+                    "displayName": "Role1"
+                },
+                {
+                    "roleId": "role2",
+                    "displayName": "Role2",
+		    "roleConstraint": {}
+                }
+            ]
+        }
+    }
+}
