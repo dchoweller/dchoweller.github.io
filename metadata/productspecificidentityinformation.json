@@ -9,12 +9,12 @@
                 },
                 {
                     "roleId": "role2"
-                },
+                }
             ]
-        },
+        }
     },
     "accessRestrictions": {
-        "accessType": "All",
+        "accessType": "All"
     },
     "productSpecificIdentityInformation": {
         "attrDefs": [
