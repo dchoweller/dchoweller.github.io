@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "applicationBaseName": "",
+  "instanceID": "1RoleLicensingInstanceID",
+  "accessRestrictions": {
+    "accessType": "all"
+  },
+  "authorization": {
+    "roleAssignment": {
+      "getRoleAssignmentsUrl": "https://authzservice.int.aps1.cwcmddev.cwcloud.io/authorizationservice/v1/sso/partners/{partnerId}/apps/{clientId}/identityRoles/{identityRoleId}/roleAssignments",
+      "saveRoleAssignmentsUrl": "https://authzservice.int.aps1.cwcmddev.cwcloud.io/authorizationservice/v1/sso/partners/{partnerId}/apps/{clientId}/identityRoles/{identityRoleId}/roleAssignments",
+      "getIdentityRoleMappingUrl": "",
+      "applicationRoles": [
+        {
+          "roleId": "adminAppRole1",
+          "displayName": "AdminAppRole1"
+        },
+        {
+          "roleId": "adminAppRole2",
+          "displayName": "AdminAppRole2"
+        },
+        {
+          "roleId": "adminAppRole3",
+          "displayName": "AdminAppRole3"
+        },
+        {
+          "roleId": "adminAppRole4",
+          "displayName": "AdminAppRole4"
+        },
+        {
+          "roleId": "adminAppRole5",
+          "displayName": "AdminAppRole5"
+        },
+        {
+          "roleId": "adminAppRole6",
+          "displayName": "AdminAppRole6",
+	  "roleConstraint": {
+		 "unAssignable": false
+	 }
+        }
+      ]
+    }
+  },
+  "licenseDetails": {
+    "fetchUrl": "https://dchoweller.github.io/licenseurls/productlevellicensing.json"
+  }
+}
