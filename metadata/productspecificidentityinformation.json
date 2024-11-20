@@ -1,0 +1,49 @@
+{
+    "version": 1,
+    "applicationBaseName": "ProductSpecificIdentityInformation",
+    "authorization": {
+        "roleAssignment": {
+            "applicationRoles": [
+                {
+                    "roleId": "role1"
+                },
+                {
+                    "roleId": "role2"
+                },
+            ]
+        },
+    },
+    "accessRestrictions": {
+        "accessType": "All",
+    },
+    "productSpecificIdentityInformation": {
+        "attrDefs": [
+            {
+                "name": "f1",
+                "allowedValues": [
+                    {
+                        "value": "f1-v1",
+                        "displayValue": "field 1 value 1"
+                    },
+                    {
+                        "value": "f1-v2",
+                        "displayValue": "field 1 value 2"
+                    }
+                ]
+            },
+            {
+                "name": "f2",
+                "allowedValues": [
+                    {
+                        "value": "f2-v1",
+                        "displayValue": "field 2 value 1"
+                    },
+                    {
+                        "value": "f2-v2",
+                        "displayValue": "field 2 value 2"
+                    }
+                ]
+            }
+        ]
+    }
+}
