@@ -15,7 +15,7 @@
     },
     "accessRestrictions": {
         "accessType": "Restriction",
-	"accessUrl": "https://sts.connectwisedev.com/api/tenants/common/Clients/test.connectedapp.qa",
+	"accessUrl": "https://sts.connectwisedev.com/api/Clients",
 	"evaluationExpression": "$count(id) > 0"
     },
     "productSpecificIdentityInformation": {
