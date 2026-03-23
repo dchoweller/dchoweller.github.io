@@ -10,5 +10,8 @@
   {
     "name": "bronze",
     "unused": 0
+  },
+  {
+    "name": "free"
   }
 ]
